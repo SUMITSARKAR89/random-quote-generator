@@ -99,6 +99,7 @@ const defaultQuotes = [
     "We often discover what will do, by finding out what will not do; and probably he who never made a mistake never made a discovery.",
     "Lost wealth may be replaced by industry, lost knowledge by study, lost health by temperance or medicine, but lost time is gone forever.",
     "Life will always be to a large extent what we ourselves make it.",
+    "love is everything",
   ];
 
   window.onload = () =>{
@@ -112,4 +113,4 @@ const defaultQuotes = [
     const index = Math.floor(Math.random() * 100);
     const quote = defaultQuotes[index];
     quoteBoby.innerHTML = quote;
-  })
+  });
